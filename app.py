@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 products = [
     {"id": 1, "name": "Wireless Earbuds", "price": 2999, "img": "https://via.placeholder.com/150"},
-    {"id": 2, "name": "Smart Watch", "price": 4999, "img": "https://via.placeholder.com/150"},
-    {"id": 3, "name": "Bluetooth Speaker", "price": 1999, "img": "https://via.placeholder.com/150"},
+    {"id": 2, "name": "Smart Watch", "price": 9999, "img": "https://via.placeholder.com/150"},
+    {"id": 3, "name": "Bluetooth Speaker", "price": 9999, "img": "https://via.placeholder.com/150"},
 ]
 
 @app.route('/')
